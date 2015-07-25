@@ -1,14 +1,14 @@
 {
-  "name": "unplugnplay",
-  "version": "1.0.0",
-  "description": "Fiddle around with M-SEARCH ",
+  "name": "upnp.io",
+  "version": "0.0.1",
+  "description": "A node/javascript library for interacting with Universal Plug and Play servers",
   "main": "app.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinmesiab/upnp.fiddler.git"
+    "url": "git+https://github.com/kevinmesiab/upnp.io.git"
   },
   "keywords": [
     "M-SEARCH",
@@ -25,7 +25,7 @@
   "author": "Kevin Mesiab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinmesiab/upnp.fiddler/issues"
+    "url": "https://github.com/kevinmesiab/upnp.io/issues"
   },
-  "homepage": "https://github.com/kevinmesiab/upnp.fiddler#readme"
+  "homepage": "https://github.com/kevinmesiab/upnp.io#readme"
 }
