@@ -1,0 +1,31 @@
+{
+  "name": "unplugnplay",
+  "version": "1.0.0",
+  "description": "Fiddle around with M-SEARCH ",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmesiab/upnp.fiddler.git"
+  },
+  "keywords": [
+    "M-SEARCH",
+    "HTTP",
+    "UPnP",
+    "Plug",
+    "and",
+    "Play",
+    "UDP",
+    "Node",
+    "Javascript",
+    "Express"
+  ],
+  "author": "Kevin Mesiab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmesiab/upnp.fiddler/issues"
+  },
+  "homepage": "https://github.com/kevinmesiab/upnp.fiddler#readme"
+}
