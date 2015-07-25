@@ -1,15 +1,9 @@
 {
+  "author": "Kevin Mesiab",
   "name": "upnp.io",
   "version": "0.0.1",
-  "description": "A node/javascript library for interacting with Universal Plug and Play servers",
-  "main": "app.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kevinmesiab/upnp.io.git"
-  },
+  "description": "A javascript library for interacting with the universal plug and play protocol",
+  "homepage": "https://github.com/kevinmesiab/upnp.fiddler#readme",
   "keywords": [
     "M-SEARCH",
     "HTTP",
@@ -22,10 +16,30 @@
     "Javascript",
     "Express"
   ],
-  "author": "Kevin Mesiab",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kevinmesiab/upnp.io/issues"
+  "main": "app.js",
+  "scripts": {
+    "start": "./bin/www",
+    "test": "jasmine"
   },
-  "homepage": "https://github.com/kevinmesiab/upnp.io#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmesiab/upnp.fiddler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinmesiab/upnp.fiddler/issues"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "nunjucks": "^1.3.4",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^1.3.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "jasmine": "^2.3.1",
+  }
 }
